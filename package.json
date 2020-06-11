@@ -1,0 +1,19 @@
+{
+  "name": "meally_react_native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebuyco/Meally_React_Native.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebuyco/Meally_React_Native/issues"
+  },
+  "homepage": "https://github.com/ebuyco/Meally_React_Native#readme"
+}
