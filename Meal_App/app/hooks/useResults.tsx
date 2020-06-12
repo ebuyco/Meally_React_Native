@@ -26,6 +26,8 @@ export const useResults = () => {
     }, []);
 
     return{
-        
-    }
+        apiSearch: (searchText: string) => apiSearch(searchText),
+        results,
+        errorMessage
+    };
 }
