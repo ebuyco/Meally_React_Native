@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { ScrollView, StyleSheet, Text } from 'react-native';
+import { ScrollView,  Text } from 'react-native';
 import { ResultsList, SearchBar } from '../components';
 import { useResults } from '../hooks/useResults';
 
-export const SearchScreen = ({}) => {
+interface SearchScreenProps {
+
+}
+export const SearchScreen: React.FC<SearchScreenProps> = ({}) => {
     const [term, setTerm] = useState<string>('');
     const { results, apiSearch, errorMessage } = useResults();
 
