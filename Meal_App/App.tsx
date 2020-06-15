@@ -1,6 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native'
+import { FoodDetailsScreen, SearchScreen} from './app/screens';
 
 const Stack = createStackNavigator();
 
@@ -15,7 +16,7 @@ const App = () => {
                 />
                 <Stack.Screen
                 name="FoodDetails"
-                component={FoodDetailScreen}
+                component={FoodDetailsScreen}
                 />
 
         </Stack.Navigator>
